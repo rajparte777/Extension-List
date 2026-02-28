@@ -19,12 +19,7 @@ color: hsl(200, 60%, 99%);
     padding: 0 0px;
    
 }
-.header-container{
-   /* max-width: 1200px; */
-   /* margin: 0 auto; */
-  
 
-}
 .header{
     color: white;
     background-color: hsl(225, 13%, 76%);
@@ -147,8 +142,9 @@ margin:0 0 6px 0;
 
 .third-main-container{
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3,1fr);
     gap: 16px;
+ 
 
     
 }
@@ -173,4 +169,151 @@ margin:0 0 6px 0;
 }
 .dark  .box-border{
     border: 1.5px solid  hsl(200, 60%, 99%);
+}
+
+
+/* media querry */
+@media screen and (max-width:775px) {
+    .third-main-container{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   margin: 12px auto;
+    }
+     body{
+     padding: 14px;
+    
+
+    }
+    .box-container{
+  width: 100%;
+    
+   
+}
+.button1{
+    
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+   
+}
+.tag-button{
+  
+    padding: 0px;
+    margin: 12px 3px;
+    align-items: end;
+   
+    font-size: 12px;
+}
+.header{
+  
+     padding:8px 12px;
+     border-radius: 12px;    
+     font-size: 16px;
+       
+}
+
+}
+
+
+@media screen and (max-width:500px) {
+    .third-main-container{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+   margin: 12px auto;
+    }
+     body{
+     padding: 14px;
+    
+
+    }
+    .box-container{
+  width: 100%;
+    
+   
+}
+.button1{
+    
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+   
+}
+.tag-button{
+  
+    padding: 0px;
+    margin: 12px 3px;
+    align-items: end;
+   
+    font-size: 12px;
+}
+.header{
+  
+     padding:8px 12px;
+     border-radius: 12px;    
+     font-size: 16px;
+       
+}
+.headd{
+    text-align: center;
+    font-size: 22px;
+}
+
+}
+
+@media screen  and (max-width : 400px){
+    body{
+     padding: 12px;
+    
+
+    }
+    .contaainerrrrr-mainnn{
+     
+    max-width: 380px;
+    min-width: 380px;
+    margin: 0 auto;
+    
+}
+
+
+
+.headd{
+  
+    font-size: 20px;
+}
+.button1{
+    
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+   
+}
+.tag-button{
+  
+    padding: 0px;
+    margin: 12px 0;
+   
+    font-size: 12px;
+}
+.header{
+  
+     padding:8px 12px;
+     border-radius: 12px;    
+     font-size: 16px;
+       
+}
+.third-main-container{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+
+    
+}
+.box-container{
+  width: 100%;
+    padding: 10px ;
+   
+}
 }

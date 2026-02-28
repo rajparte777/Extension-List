@@ -6,10 +6,6 @@ const par =document.querySelectorAll('.partitle');
 const headdd = document.querySelector('.headd');
 const boxcontainer = document.querySelectorAll('.box-container');
 
-
-
-
-
 const allButton = document.querySelector('#buton1');
 const activeButton = document.querySelector('#buton2');
 const inactiveButton = document.querySelector('#buton3');
@@ -44,12 +40,13 @@ darkttheme.addEventListener("click", (e) => {
     hed.classList.toggle("head-title");
    });
 
+   
+
    boxcontainer.forEach((box)=> {
     box.classList.toggle("box-border");
 });
 
 });
-
 
 function filterBox(type){
 
